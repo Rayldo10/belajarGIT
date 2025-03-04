@@ -8,3 +8,11 @@ Daftar tugas / branch
 6.	Tugas-php
 7.	Tugas-finalProject
 Daftar perintah GiT
+git checkout -b <nama-branch>
+touch <nama-file>.txt
+echo "<isi file>" > <nama-file>.txt
+git add .
+git commit -m "pesan commit"
+git checkout main
+git merge <nama-branch>
+git push origin main
